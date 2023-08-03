@@ -1,0 +1,39 @@
+{
+    "name": "troia-studio/ssh-key-validator-symfony",
+    "description": "Implementation troia-studio/ssh-key-validator to Nette",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "TroiaStudio\\SshKeyValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "troia-studio/ssh-key-validator": "^1.0",
+        "symfony/validator": "^6.3"
+    },
+    "require-dev": {
+        "ext-intl": "*",
+        "contributte/qa": "^0.3.1",
+        "contributte/phpstan": "^0.1.0",
+        "phpunit/phpunit": "^10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Galek",
+            "email": "me@jan-galek.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
