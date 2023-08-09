@@ -1,6 +1,6 @@
 {
     "name": "troia-studio/ssh-key-validator-symfony",
-    "description": "Implementation troia-studio/ssh-key-validator to Nette",
+    "description": "Implementation troia-studio/ssh-key-validator to Symfony",
     "type": "library",
     "autoload": {
         "psr-4": {
